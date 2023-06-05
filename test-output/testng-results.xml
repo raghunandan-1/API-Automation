@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="70" total="107" passed="37" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-01T16:08:14 IST" name="Suite" finished-at="2023-06-01T16:09:07 IST" duration-ms="53717">
+    <groups>
+    </groups>
+    <test started-at="2023-06-01T16:08:14 IST" name="Test" finished-at="2023-06-01T16:09:07 IST" duration-ms="53717">
+      <class name="com.restassured.testcases.Network_Get_DownloadTemplate">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.restassured.testcases.Network_Get_DownloadTemplate@6221a451]" started-at="2023-06-01T16:08:32 IST" name="setUp" finished-at="2023-06-01T16:08:32 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Get_Network_DownloadTemplate()[pri:13, instance:com.restassured.testcases.Network_Get_DownloadTemplate@6221a451]" started-at="2023-06-01T16:08:32 IST" name="Get_Network_DownloadTemplate" description="To verify the Network Get DownloadTemplate API   " finished-at="2023-06-01T16:08:33 IST" duration-ms="1025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Network_DownloadTemplate -->
+      </class> <!-- com.restassured.testcases.Network_Get_DownloadTemplate -->
+      <class name="com.restassured.testcases.Currency_Upload_JSON">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.restassured.testcases.Currency_Upload_JSON@4b45a2f5]" started-at="2023-06-01T16:09:01 IST" name="setUp" finished-at="2023-06-01T16:09:01 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Get_Currency_Upload_JSON()[pri:30, instance:com.restassured.testcases.Currency_Upload_JSON@4b45a2f5]" started-at="2023-06-01T16:09:01 IST" name="Get_Currency_Upload_JSON" description="To verify the currency upload JSON API   " finished-at="2023-06-01T16:09:02 IST" duration-ms="1637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Currency_Upload_JSON -->
+      </class> <!-- com.restassured.testcases.Currency_Upload_JSON -->
+      <class name="com.restassured.testcases.Network_Get_Data">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.restassured.testcases.Network_Get_Data@2e6a8155]" started-at="2023-06-01T16:08:31 IST" name="setUp" finished-at="2023-06-01T16:08:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Get_Network_DownloadTemplate()[pri:12, instance:com.restassured.testcases.Network_Get_Data@2e6a8155]" started-at="2023-06-01T16:08:31 IST" name="Get_Network_DownloadTemplate" description="To verify the Get Network Data API   " finished-at="2023-06-01T16:08:32 IST" duration-ms="1035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Network_DownloadTemplate -->
+      </class> <!-- com.restassured.testcases.Network_Get_Data -->
+      <class name="com.restassured.testcases.Product_Download_CSV">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.restassured.testcases.Product_Download_CSV@5677323c]" started-at="2023-06-01T16:08:40 IST" name="setUp" finished-at="2023-06-01T16:08:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Get_Product_DownloadCSV()[pri:21, instance:com.restassured.testcases.Product_Download_CSV@5677323c]" started-at="2023-06-01T16:08:40 IST" name="Get_Product_DownloadCSV" description="To verify the product downoad csv API   " finished-at="2023-06-01T16:08:41 IST" duration-ms="1303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Product_DownloadCSV -->
+      </class> <!-- com.restassured.testcases.Product_Download_CSV -->
+      <class name="com.restassured.testcases.Location_Upload_JSON">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.restassured.testcases.Location_Upload_JSON@5e600dd5]" started-at="2023-06-01T16:08:24 IST" name="setUp" finished-at="2023-06-01T16:08:24 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Get_Location_Upload_JSON()[pri:5, instance:com.restassured.testcases.Location_Upload_JSON@5e600dd5]" started-at="2023-06-01T16:08:24 IST" name="Get_Location_Upload_JSON" description="To verify the location upload JSON API   " finished-at="2023-06-01T16:08:25 IST" duration-ms="1032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Location_Upload_JSON -->
+      </class> <!-- com.restassured.testcases.Location_Upload_JSON -->
+      <class name="com.restassured.testcases.Currency_Upload_CSV">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.restassured.testcases.Currency_Upload_CSV@38cee291]" started-at="2023-06-01T16:08:59 IST" name="setUp" finished-at="2023-06-01T16:08:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Get_Currency_Upload_CSV()[pri:29, instance:com.restassured.testcases.Currency_Upload_CSV@38cee291]" started-at="2023-06-01T16:08:59 IST" name="Get_Currency_Upload_CSV" description="To verify the Cuurency upload CSV API   " finished-at="2023-06-01T16:09:01 IST" duration-ms="1625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Currency_Upload_CSV -->
+      </class> <!-- com.restassured.testcases.Currency_Upload_CSV -->
+      <class name="com.restassured.testcases.Personnel_Upload_CSV">
+        <test-method signature="Get_Personnel_Upload_CSV()[pri:19, instance:com.restassured.testcases.Personnel_Upload_CSV@5824a83d]" started-at="2023-06-01T16:08:38 IST" name="Get_Personnel_Upload_CSV" description="To verify the personnel upload CSV API   " finished-at="2023-06-01T16:08:39 IST" duration-ms="1036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Personnel_Upload_CSV -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.restassured.testcases.Personnel_Upload_CSV@5824a83d]" started-at="2023-06-01T16:08:38 IST" name="setUp" finished-at="2023-06-01T16:08:38 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- com.restassured.testcases.Personnel_Upload_CSV -->
+      <class name="com.restassured.testcases.Transaction_Download_CSV">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.restassured.testcases.Transaction_Download_CSV@f09733f]" started-at="2023-06-01T16:09:02 IST" name="setUp" finished-at="2023-06-01T16:09:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Get_Transaction_DownloadCSV()[pri:31, instance:com.restassured.testcases.Transaction_Download_CSV@f09733f]" started-at="2023-06-01T16:09:02 IST" name="Get_Transaction_DownloadCSV" description="To verify the transaction download csv API   " finished-at="2023-06-01T16:09:03 IST" duration-ms="1022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Transaction_DownloadCSV -->
+      </class> <!-- com.restassured.testcases.Transaction_Download_CSV -->
+      <class name="com.restassured.testcases.Transaction_Upload_JSON">
+        <test-method signature="Get_Transaction_Upload_JSON()[pri:35, instance:com.restassured.testcases.Transaction_Upload_JSON@6340e5f0]" started-at="2023-06-01T16:09:06 IST" name="Get_Transaction_Upload_JSON" description="To verify the transaction upload JSON API   " finished-at="2023-06-01T16:09:07 IST" duration-ms="1009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Transaction_Upload_JSON -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.restassured.testcases.Transaction_Upload_JSON@6340e5f0]" started-at="2023-06-01T16:09:06 IST" name="setUp" finished-at="2023-06-01T16:09:06 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- com.restassured.testcases.Transaction_Upload_JSON -->
+      <class name="com.restassured.testcases.Product_Get_Data">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.restassured.testcases.Product_Get_Data@18df8434]" started-at="2023-06-01T16:08:41 IST" name="setUp" finished-at="2023-06-01T16:08:41 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Get_Product_DownloadTemplate()[pri:22, instance:com.restassured.testcases.Product_Get_Data@18df8434]" started-at="2023-06-01T16:08:41 IST" name="Get_Product_DownloadTemplate" description="To verify the Get Product Data API   " finished-at="2023-06-01T16:08:45 IST" duration-ms="3717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Product_DownloadTemplate -->
+      </class> <!-- com.restassured.testcases.Product_Get_Data -->
+      <class name="com.restassured.testcases.Network_Upload_CSV">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.restassured.testcases.Network_Upload_CSV@52719fb6]" started-at="2023-06-01T16:08:33 IST" name="setUp" finished-at="2023-06-01T16:08:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Get_Network_Upload_CSV()[pri:14, instance:com.restassured.testcases.Network_Upload_CSV@52719fb6]" started-at="2023-06-01T16:08:33 IST" name="Get_Network_Upload_CSV" description="To verify the network upload CSV API   " finished-at="2023-06-01T16:08:34 IST" duration-ms="1061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Network_Upload_CSV -->
+      </class> <!-- com.restassured.testcases.Network_Upload_CSV -->
+      <class name="com.restassured.testcases.Mapping_Get_Data">
+        <test-method signature="Get_Mapping_DownloadTemplate()[pri:7, instance:com.restassured.testcases.Mapping_Get_Data@70e9c95d]" started-at="2023-06-01T16:08:26 IST" name="Get_Mapping_DownloadTemplate" description="To verify the Get Mapping Data API   " finished-at="2023-06-01T16:08:27 IST" duration-ms="1020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Mapping_DownloadTemplate -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.restassured.testcases.Mapping_Get_Data@70e9c95d]" started-at="2023-06-01T16:08:26 IST" name="setUp" finished-at="2023-06-01T16:08:26 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- com.restassured.testcases.Mapping_Get_Data -->
+      <class name="com.restassured.testcases.Personnel_Upload_JSON">
+        <test-method signature="Get_Personnel_Upload_JSON()[pri:20, instance:com.restassured.testcases.Personnel_Upload_JSON@537f60bf]" started-at="2023-06-01T16:08:39 IST" name="Get_Personnel_Upload_JSON" description="To verify the personnel upload JSON API   " finished-at="2023-06-01T16:08:40 IST" duration-ms="1020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Personnel_Upload_JSON -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.restassured.testcases.Personnel_Upload_JSON@537f60bf]" started-at="2023-06-01T16:08:39 IST" name="setUp" finished-at="2023-06-01T16:08:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- com.restassured.testcases.Personnel_Upload_JSON -->
+      <class name="com.restassured.testcases.Currency_Get_Data">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.restassured.testcases.Currency_Get_Data@1e0b4072]" started-at="2023-06-01T16:08:56 IST" name="setUp" finished-at="2023-06-01T16:08:56 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Get_Currency_DownloadTemplate()[pri:27, instance:com.restassured.testcases.Currency_Get_Data@1e0b4072]" started-at="2023-06-01T16:08:56 IST" name="Get_Currency_DownloadTemplate" description="To verify the Get Currency Data API   " finished-at="2023-06-01T16:08:58 IST" duration-ms="1614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Currency_DownloadTemplate -->
+      </class> <!-- com.restassured.testcases.Currency_Get_Data -->
+      <class name="com.restassured.testcases.Network_Upload_JSON">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.restassured.testcases.Network_Upload_JSON@3012646b]" started-at="2023-06-01T16:08:34 IST" name="setUp" finished-at="2023-06-01T16:08:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Get_Network_Upload_JSON()[pri:15, instance:com.restassured.testcases.Network_Upload_JSON@3012646b]" started-at="2023-06-01T16:08:34 IST" name="Get_Network_Upload_JSON" description="To verify the network upload JSON API   " finished-at="2023-06-01T16:08:35 IST" duration-ms="998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Network_Upload_JSON -->
+      </class> <!-- com.restassured.testcases.Network_Upload_JSON -->
+      <class name="com.restassured.testcases.Network_Download_CSV">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.restassured.testcases.Network_Download_CSV@51c668e3]" started-at="2023-06-01T16:08:30 IST" name="setUp" finished-at="2023-06-01T16:08:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Get_Network_DownloadCSV()[pri:11, instance:com.restassured.testcases.Network_Download_CSV@51c668e3]" started-at="2023-06-01T16:08:30 IST" name="Get_Network_DownloadCSV" description="To verify the network downoad csv API   " finished-at="2023-06-01T16:08:31 IST" duration-ms="1027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Network_DownloadCSV -->
+      </class> <!-- com.restassured.testcases.Network_Download_CSV -->
+      <class name="com.restassured.testcases.Product_Get_DownloadTemplate">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.restassured.testcases.Product_Get_DownloadTemplate@65c7a252]" started-at="2023-06-01T16:08:45 IST" name="setUp" finished-at="2023-06-01T16:08:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Get_Product_DownloadTemplate()[pri:23, instance:com.restassured.testcases.Product_Get_DownloadTemplate@65c7a252]" started-at="2023-06-01T16:08:45 IST" name="Get_Product_DownloadTemplate" description="To verify the Product Get DownloadTemplate API   " finished-at="2023-06-01T16:08:46 IST" duration-ms="989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Product_DownloadTemplate -->
+      </class> <!-- com.restassured.testcases.Product_Get_DownloadTemplate -->
+      <class name="com.restassured.testcases.Transaction_Get_DownloadTemplate">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.restassured.testcases.Transaction_Get_DownloadTemplate@41a0aa7d]" started-at="2023-06-01T16:09:04 IST" name="setUp" finished-at="2023-06-01T16:09:04 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Get_Transaction_DownloadTemplate()[pri:33, instance:com.restassured.testcases.Transaction_Get_DownloadTemplate@41a0aa7d]" started-at="2023-06-01T16:09:04 IST" name="Get_Transaction_DownloadTemplate" description="To verify the Transaction Get DownloadTemplate API   " finished-at="2023-06-01T16:09:05 IST" duration-ms="998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Transaction_DownloadTemplate -->
+      </class> <!-- com.restassured.testcases.Transaction_Get_DownloadTemplate -->
+      <class name="com.restassured.testcases.Currency_Get_DownloadTemplate">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.restassured.testcases.Currency_Get_DownloadTemplate@791f145a]" started-at="2023-06-01T16:08:58 IST" name="setUp" finished-at="2023-06-01T16:08:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Get_Currency_DownloadTemplate()[pri:28, instance:com.restassured.testcases.Currency_Get_DownloadTemplate@791f145a]" started-at="2023-06-01T16:08:58 IST" name="Get_Currency_DownloadTemplate" description="To verify the Currency Get DownloadTemplate API   " finished-at="2023-06-01T16:08:59 IST" duration-ms="1007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Currency_DownloadTemplate -->
+      </class> <!-- com.restassured.testcases.Currency_Get_DownloadTemplate -->
+      <class name="com.restassured.testcases.Location_Upload_CSV">
+        <test-method signature="Get_Location_Upload_CSV()[pri:4, instance:com.restassured.testcases.Location_Upload_CSV@130c12b7]" started-at="2023-06-01T16:08:23 IST" name="Get_Location_Upload_CSV" description="To verify the Location upload CSV API   " finished-at="2023-06-01T16:08:24 IST" duration-ms="1079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Location_Upload_CSV -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.restassured.testcases.Location_Upload_CSV@130c12b7]" started-at="2023-06-01T16:08:23 IST" name="setUp" finished-at="2023-06-01T16:08:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- com.restassured.testcases.Location_Upload_CSV -->
+      <class name="com.restassured.testcases.Location_Get_DownloadTemplate">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.restassured.testcases.Location_Get_DownloadTemplate@121314f7]" started-at="2023-06-01T16:08:22 IST" name="setUp" finished-at="2023-06-01T16:08:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Get_Location_DownloadTemplate()[pri:3, instance:com.restassured.testcases.Location_Get_DownloadTemplate@121314f7]" started-at="2023-06-01T16:08:22 IST" name="Get_Location_DownloadTemplate" description="To verify the Location Get DownloadTemplate API   " finished-at="2023-06-01T16:08:23 IST" duration-ms="1030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Location_DownloadTemplate -->
+      </class> <!-- com.restassured.testcases.Location_Get_DownloadTemplate -->
+      <class name="com.restassured.testcases.Product_Upload_CSV">
+        <test-method signature="Get_Product_Upload_CSV()[pri:24, instance:com.restassured.testcases.Product_Upload_CSV@4d154ccd]" started-at="2023-06-01T16:08:46 IST" name="Get_Product_Upload_CSV" description="To verify the product upload CSV API   " finished-at="2023-06-01T16:08:50 IST" duration-ms="4082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Product_Upload_CSV -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.restassured.testcases.Product_Upload_CSV@4d154ccd]" started-at="2023-06-01T16:08:46 IST" name="setUp" finished-at="2023-06-01T16:08:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- com.restassured.testcases.Product_Upload_CSV -->
+      <class name="com.restassured.testcases.Mapping_Download_CSV">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.restassured.testcases.Mapping_Download_CSV@2e3967ea]" started-at="2023-06-01T16:08:25 IST" name="setUp" finished-at="2023-06-01T16:08:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Get_Mapping_DownloadCSV()[pri:6, instance:com.restassured.testcases.Mapping_Download_CSV@2e3967ea]" started-at="2023-06-01T16:08:25 IST" name="Get_Mapping_DownloadCSV" description="To verify the Mapping downoad csv API   " finished-at="2023-06-01T16:08:26 IST" duration-ms="1004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Mapping_DownloadCSV -->
+      </class> <!-- com.restassured.testcases.Mapping_Download_CSV -->
+      <class name="com.restassured.testcases.Transaction_Get_Data">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.restassured.testcases.Transaction_Get_Data@e350b40]" started-at="2023-06-01T16:09:03 IST" name="setUp" finished-at="2023-06-01T16:09:03 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Get_Transaction_DownloadTemplate()[pri:32, instance:com.restassured.testcases.Transaction_Get_Data@e350b40]" started-at="2023-06-01T16:09:03 IST" name="Get_Transaction_DownloadTemplate" description="To verify the Get Transaction Data API   " finished-at="2023-06-01T16:09:04 IST" duration-ms="1018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Transaction_DownloadTemplate -->
+      </class> <!-- com.restassured.testcases.Transaction_Get_Data -->
+      <class name="com.restassured.testcases.Personnel_Download_CSV">
+        <test-method signature="Get_Personnel_DownloadCSV()[pri:16, instance:com.restassured.testcases.Personnel_Download_CSV@4a883b15]" started-at="2023-06-01T16:08:35 IST" name="Get_Personnel_DownloadCSV" description="To verify the personnel downoad csv API   " finished-at="2023-06-01T16:08:36 IST" duration-ms="999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Personnel_DownloadCSV -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.restassured.testcases.Personnel_Download_CSV@4a883b15]" started-at="2023-06-01T16:08:35 IST" name="setUp" finished-at="2023-06-01T16:08:35 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- com.restassured.testcases.Personnel_Download_CSV -->
+      <class name="com.restassured.testcases.Location_Get_Data">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.restassured.testcases.Location_Get_Data@60bd273d]" started-at="2023-06-01T16:08:21 IST" name="setUp" finished-at="2023-06-01T16:08:21 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Get_Location_DownloadTemplate()[pri:3, instance:com.restassured.testcases.Location_Get_Data@60bd273d]" started-at="2023-06-01T16:08:21 IST" name="Get_Location_DownloadTemplate" description="To verify the Get Location Data API   " finished-at="2023-06-01T16:08:22 IST" duration-ms="1036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Location_DownloadTemplate -->
+      </class> <!-- com.restassured.testcases.Location_Get_Data -->
+      <class name="com.restassured.testcases.Transaction_Upload_CSV">
+        <test-method signature="Get_Transaction_Upload_CSV()[pri:34, instance:com.restassured.testcases.Transaction_Upload_CSV@2794eab6]" started-at="2023-06-01T16:09:05 IST" name="Get_Transaction_Upload_CSV" description="To verify the Transaction upload CSV API   " finished-at="2023-06-01T16:09:06 IST" duration-ms="1049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Transaction_Upload_CSV -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.restassured.testcases.Transaction_Upload_CSV@2794eab6]" started-at="2023-06-01T16:09:05 IST" name="setUp" finished-at="2023-06-01T16:09:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- com.restassured.testcases.Transaction_Upload_CSV -->
+      <class name="com.restassured.testcases.Location_Download_CSV">
+        <test-method signature="Get_Location_DownloadCSV()[pri:2, instance:com.restassured.testcases.Location_Download_CSV@4f80542f]" started-at="2023-06-01T16:08:20 IST" name="Get_Location_DownloadCSV" description="To verify the location download csv API   " finished-at="2023-06-01T16:08:21 IST" duration-ms="1077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Location_DownloadCSV -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.restassured.testcases.Location_Download_CSV@4f80542f]" started-at="2023-06-01T16:08:20 IST" name="setUp" finished-at="2023-06-01T16:08:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- com.restassured.testcases.Location_Download_CSV -->
+      <class name="com.restassured.testcases.Currency_Download_CSV">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.restassured.testcases.Currency_Download_CSV@4686afc2]" started-at="2023-06-01T16:08:55 IST" name="setUp" finished-at="2023-06-01T16:08:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Get_Currency_DownloadCSV()[pri:26, instance:com.restassured.testcases.Currency_Download_CSV@4686afc2]" started-at="2023-06-01T16:08:55 IST" name="Get_Currency_DownloadCSV" description="To verify the currency download csv API   " finished-at="2023-06-01T16:08:56 IST" duration-ms="1028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Currency_DownloadCSV -->
+      </class> <!-- com.restassured.testcases.Currency_Download_CSV -->
+      <class name="com.restassured.testcases.Personnel_Get_Data">
+        <test-method signature="Get_Personnel_DownloadTemplate()[pri:17, instance:com.restassured.testcases.Personnel_Get_Data@25641d39]" started-at="2023-06-01T16:08:36 IST" name="Get_Personnel_DownloadTemplate" description="To verify the Get Personnel Data API   " finished-at="2023-06-01T16:08:37 IST" duration-ms="1016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Personnel_DownloadTemplate -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.restassured.testcases.Personnel_Get_Data@25641d39]" started-at="2023-06-01T16:08:36 IST" name="setUp" finished-at="2023-06-01T16:08:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- com.restassured.testcases.Personnel_Get_Data -->
+      <class name="com.restassured.testcases.Product_Upload_JSON">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.restassured.testcases.Product_Upload_JSON@229c6181]" started-at="2023-06-01T16:08:50 IST" name="setUp" finished-at="2023-06-01T16:08:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Get_Product_Upload_JSON()[pri:25, instance:com.restassured.testcases.Product_Upload_JSON@229c6181]" started-at="2023-06-01T16:08:50 IST" name="Get_Product_Upload_JSON" description="To verify the product upload JSON API   " finished-at="2023-06-01T16:08:55 IST" duration-ms="4998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Product_Upload_JSON -->
+      </class> <!-- com.restassured.testcases.Product_Upload_JSON -->
+      <class name="com.restassured.testcases.Login">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:com.restassured.testcases.Login@2d52216b]" started-at="2023-06-01T16:08:13 IST" name="setUpSuite" finished-at="2023-06-01T16:08:14 IST" duration-ms="403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.restassured.testcases.Login@2d52216b]" started-at="2023-06-01T16:08:14 IST" name="setUp" finished-at="2023-06-01T16:08:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Login_user()[pri:-1, instance:com.restassured.testcases.Login@2d52216b]" started-at="2023-06-01T16:08:14 IST" name="Login_user" description="To verify the Login API for Valid Creds   " finished-at="2023-06-01T16:08:18 IST" duration-ms="4847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_user -->
+        <test-method signature="Verify_token()[pri:0, instance:com.restassured.testcases.Login@2d52216b]" started-at="2023-06-01T16:08:18 IST" name="Verify_token" description="To verify the Token API   " finished-at="2023-06-01T16:08:20 IST" duration-ms="1125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_token -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.restassured.testcases.Login@2d52216b]" started-at="2023-06-01T16:08:18 IST" name="setUp" finished-at="2023-06-01T16:08:18 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.restassured.testcases.Login@2d52216b]" started-at="2023-06-01T16:09:07 IST" name="afterSuite" finished-at="2023-06-01T16:09:08 IST" duration-ms="1094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.restassured.testcases.Login -->
+      <class name="com.restassured.testcases.Personnel_Get_DownloadTemplate">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.restassured.testcases.Personnel_Get_DownloadTemplate@7b36aa0c]" started-at="2023-06-01T16:08:37 IST" name="setUp" finished-at="2023-06-01T16:08:37 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Get_Personnel_DownloadTemplate()[pri:18, instance:com.restassured.testcases.Personnel_Get_DownloadTemplate@7b36aa0c]" started-at="2023-06-01T16:08:37 IST" name="Get_Personnel_DownloadTemplate" description="To verify the Personnel Get DownloadTemplate API   " finished-at="2023-06-01T16:08:38 IST" duration-ms="1015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Personnel_DownloadTemplate -->
+      </class> <!-- com.restassured.testcases.Personnel_Get_DownloadTemplate -->
+      <class name="com.restassured.testcases.Mapping_Upload_JSON">
+        <test-method signature="Get_Mapping_Upload_JSON()[pri:10, instance:com.restassured.testcases.Mapping_Upload_JSON@6fdbe764]" started-at="2023-06-01T16:08:29 IST" name="Get_Mapping_Upload_JSON" description="To verify the mapping upload JSON API   " finished-at="2023-06-01T16:08:30 IST" duration-ms="1001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Mapping_Upload_JSON -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.restassured.testcases.Mapping_Upload_JSON@6fdbe764]" started-at="2023-06-01T16:08:29 IST" name="setUp" finished-at="2023-06-01T16:08:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- com.restassured.testcases.Mapping_Upload_JSON -->
+      <class name="com.restassured.testcases.Mapping_Get_DownloadTemplate">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.restassured.testcases.Mapping_Get_DownloadTemplate@4d5650ae]" started-at="2023-06-01T16:08:27 IST" name="setUp" finished-at="2023-06-01T16:08:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Get_Mapping_DownloadTemplate()[pri:8, instance:com.restassured.testcases.Mapping_Get_DownloadTemplate@4d5650ae]" started-at="2023-06-01T16:08:27 IST" name="Get_Mapping_DownloadTemplate" description="To verify the Mapping Get DownloadTemplate API   " finished-at="2023-06-01T16:08:28 IST" duration-ms="1028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Mapping_DownloadTemplate -->
+      </class> <!-- com.restassured.testcases.Mapping_Get_DownloadTemplate -->
+      <class name="com.restassured.testcases.Mapping_Upload_CSV">
+        <test-method signature="Get_Mapping_Upload_CSV()[pri:9, instance:com.restassured.testcases.Mapping_Upload_CSV@a38c7fe]" started-at="2023-06-01T16:08:28 IST" name="Get_Mapping_Upload_CSV" description="To verify the mapping upload CSV API   " finished-at="2023-06-01T16:08:29 IST" duration-ms="1001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Mapping_Upload_CSV -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.restassured.testcases.Mapping_Upload_CSV@a38c7fe]" started-at="2023-06-01T16:08:28 IST" name="setUp" finished-at="2023-06-01T16:08:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- com.restassured.testcases.Mapping_Upload_CSV -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

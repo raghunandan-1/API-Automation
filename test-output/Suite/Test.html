@@ -1,0 +1,264 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>37/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jun 01 16:08:14 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>53 seconds (53717 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.restassured.testcases.Mapping_Upload_JSON.Get_Mapping_Upload_JSON()'><b>Get_Mapping_Upload_JSON</b><br>Test class: com.restassured.testcases.Mapping_Upload_JSON<br>Test method: To verify the mapping upload JSON API   </td>
+<td></td>
+<td>1</td>
+<td>com.restassured.testcases.Mapping_Upload_JSON@6fdbe764</td></tr>
+<tr>
+<td title='com.restassured.testcases.Mapping_Get_DownloadTemplate.Get_Mapping_DownloadTemplate()'><b>Get_Mapping_DownloadTemplate</b><br>Test class: com.restassured.testcases.Mapping_Get_DownloadTemplate<br>Test method: To verify the Mapping Get DownloadTemplate API   </td>
+<td></td>
+<td>1</td>
+<td>com.restassured.testcases.Mapping_Get_DownloadTemplate@4d5650ae</td></tr>
+<tr>
+<td title='com.restassured.testcases.Personnel_Get_DownloadTemplate.Get_Personnel_DownloadTemplate()'><b>Get_Personnel_DownloadTemplate</b><br>Test class: com.restassured.testcases.Personnel_Get_DownloadTemplate<br>Test method: To verify the Personnel Get DownloadTemplate API   </td>
+<td></td>
+<td>1</td>
+<td>com.restassured.testcases.Personnel_Get_DownloadTemplate@7b36aa0c</td></tr>
+<tr>
+<td title='com.restassured.testcases.Mapping_Get_Data.Get_Mapping_DownloadTemplate()'><b>Get_Mapping_DownloadTemplate</b><br>Test class: com.restassured.testcases.Mapping_Get_Data<br>Test method: To verify the Get Mapping Data API   </td>
+<td></td>
+<td>1</td>
+<td>com.restassured.testcases.Mapping_Get_Data@70e9c95d</td></tr>
+<tr>
+<td title='com.restassured.testcases.Mapping_Download_CSV.Get_Mapping_DownloadCSV()'><b>Get_Mapping_DownloadCSV</b><br>Test class: com.restassured.testcases.Mapping_Download_CSV<br>Test method: To verify the Mapping downoad csv API   </td>
+<td></td>
+<td>1</td>
+<td>com.restassured.testcases.Mapping_Download_CSV@2e3967ea</td></tr>
+<tr>
+<td title='com.restassured.testcases.Product_Upload_CSV.Get_Product_Upload_CSV()'><b>Get_Product_Upload_CSV</b><br>Test class: com.restassured.testcases.Product_Upload_CSV<br>Test method: To verify the product upload CSV API   </td>
+<td></td>
+<td>4</td>
+<td>com.restassured.testcases.Product_Upload_CSV@4d154ccd</td></tr>
+<tr>
+<td title='com.restassured.testcases.Currency_Get_Data.Get_Currency_DownloadTemplate()'><b>Get_Currency_DownloadTemplate</b><br>Test class: com.restassured.testcases.Currency_Get_Data<br>Test method: To verify the Get Currency Data API   </td>
+<td></td>
+<td>1</td>
+<td>com.restassured.testcases.Currency_Get_Data@1e0b4072</td></tr>
+<tr>
+<td title='com.restassured.testcases.Mapping_Upload_CSV.Get_Mapping_Upload_CSV()'><b>Get_Mapping_Upload_CSV</b><br>Test class: com.restassured.testcases.Mapping_Upload_CSV<br>Test method: To verify the mapping upload CSV API   </td>
+<td></td>
+<td>1</td>
+<td>com.restassured.testcases.Mapping_Upload_CSV@a38c7fe</td></tr>
+<tr>
+<td title='com.restassured.testcases.Transaction_Upload_JSON.Get_Transaction_Upload_JSON()'><b>Get_Transaction_Upload_JSON</b><br>Test class: com.restassured.testcases.Transaction_Upload_JSON<br>Test method: To verify the transaction upload JSON API   </td>
+<td></td>
+<td>1</td>
+<td>com.restassured.testcases.Transaction_Upload_JSON@6340e5f0</td></tr>
+<tr>
+<td title='com.restassured.testcases.Location_Get_Data.Get_Location_DownloadTemplate()'><b>Get_Location_DownloadTemplate</b><br>Test class: com.restassured.testcases.Location_Get_Data<br>Test method: To verify the Get Location Data API   </td>
+<td></td>
+<td>1</td>
+<td>com.restassured.testcases.Location_Get_Data@60bd273d</td></tr>
+<tr>
+<td title='com.restassured.testcases.Personnel_Upload_CSV.Get_Personnel_Upload_CSV()'><b>Get_Personnel_Upload_CSV</b><br>Test class: com.restassured.testcases.Personnel_Upload_CSV<br>Test method: To verify the personnel upload CSV API   </td>
+<td></td>
+<td>1</td>
+<td>com.restassured.testcases.Personnel_Upload_CSV@5824a83d</td></tr>
+<tr>
+<td title='com.restassured.testcases.Location_Upload_JSON.Get_Location_Upload_JSON()'><b>Get_Location_Upload_JSON</b><br>Test class: com.restassured.testcases.Location_Upload_JSON<br>Test method: To verify the location upload JSON API   </td>
+<td></td>
+<td>1</td>
+<td>com.restassured.testcases.Location_Upload_JSON@5e600dd5</td></tr>
+<tr>
+<td title='com.restassured.testcases.Currency_Upload_CSV.Get_Currency_Upload_CSV()'><b>Get_Currency_Upload_CSV</b><br>Test class: com.restassured.testcases.Currency_Upload_CSV<br>Test method: To verify the Cuurency upload CSV API   </td>
+<td></td>
+<td>1</td>
+<td>com.restassured.testcases.Currency_Upload_CSV@38cee291</td></tr>
+<tr>
+<td title='com.restassured.testcases.Product_Upload_JSON.Get_Product_Upload_JSON()'><b>Get_Product_Upload_JSON</b><br>Test class: com.restassured.testcases.Product_Upload_JSON<br>Test method: To verify the product upload JSON API   </td>
+<td></td>
+<td>4</td>
+<td>com.restassured.testcases.Product_Upload_JSON@229c6181</td></tr>
+<tr>
+<td title='com.restassured.testcases.Currency_Upload_JSON.Get_Currency_Upload_JSON()'><b>Get_Currency_Upload_JSON</b><br>Test class: com.restassured.testcases.Currency_Upload_JSON<br>Test method: To verify the currency upload JSON API   </td>
+<td></td>
+<td>1</td>
+<td>com.restassured.testcases.Currency_Upload_JSON@4b45a2f5</td></tr>
+<tr>
+<td title='com.restassured.testcases.Transaction_Get_DownloadTemplate.Get_Transaction_DownloadTemplate()'><b>Get_Transaction_DownloadTemplate</b><br>Test class: com.restassured.testcases.Transaction_Get_DownloadTemplate<br>Test method: To verify the Transaction Get DownloadTemplate API   </td>
+<td></td>
+<td>0</td>
+<td>com.restassured.testcases.Transaction_Get_DownloadTemplate@41a0aa7d</td></tr>
+<tr>
+<td title='com.restassured.testcases.Transaction_Download_CSV.Get_Transaction_DownloadCSV()'><b>Get_Transaction_DownloadCSV</b><br>Test class: com.restassured.testcases.Transaction_Download_CSV<br>Test method: To verify the transaction download csv API   </td>
+<td></td>
+<td>1</td>
+<td>com.restassured.testcases.Transaction_Download_CSV@f09733f</td></tr>
+<tr>
+<td title='com.restassured.testcases.Login.Login_user()'><b>Login_user</b><br>Test class: com.restassured.testcases.Login<br>Test method: To verify the Login API for Valid Creds   </td>
+<td></td>
+<td>4</td>
+<td>com.restassured.testcases.Login@2d52216b</td></tr>
+<tr>
+<td title='com.restassured.testcases.Currency_Get_DownloadTemplate.Get_Currency_DownloadTemplate()'><b>Get_Currency_DownloadTemplate</b><br>Test class: com.restassured.testcases.Currency_Get_DownloadTemplate<br>Test method: To verify the Currency Get DownloadTemplate API   </td>
+<td></td>
+<td>1</td>
+<td>com.restassured.testcases.Currency_Get_DownloadTemplate@791f145a</td></tr>
+<tr>
+<td title='com.restassured.testcases.Login.Verify_token()'><b>Verify_token</b><br>Test class: com.restassured.testcases.Login<br>Test method: To verify the Token API   </td>
+<td></td>
+<td>1</td>
+<td>com.restassured.testcases.Login@2d52216b</td></tr>
+<tr>
+<td title='com.restassured.testcases.Location_Download_CSV.Get_Location_DownloadCSV()'><b>Get_Location_DownloadCSV</b><br>Test class: com.restassured.testcases.Location_Download_CSV<br>Test method: To verify the location download csv API   </td>
+<td></td>
+<td>1</td>
+<td>com.restassured.testcases.Location_Download_CSV@4f80542f</td></tr>
+<tr>
+<td title='com.restassured.testcases.Location_Upload_CSV.Get_Location_Upload_CSV()'><b>Get_Location_Upload_CSV</b><br>Test class: com.restassured.testcases.Location_Upload_CSV<br>Test method: To verify the Location upload CSV API   </td>
+<td></td>
+<td>1</td>
+<td>com.restassured.testcases.Location_Upload_CSV@130c12b7</td></tr>
+<tr>
+<td title='com.restassured.testcases.Personnel_Get_Data.Get_Personnel_DownloadTemplate()'><b>Get_Personnel_DownloadTemplate</b><br>Test class: com.restassured.testcases.Personnel_Get_Data<br>Test method: To verify the Get Personnel Data API   </td>
+<td></td>
+<td>1</td>
+<td>com.restassured.testcases.Personnel_Get_Data@25641d39</td></tr>
+<tr>
+<td title='com.restassured.testcases.Network_Get_Data.Get_Network_DownloadTemplate()'><b>Get_Network_DownloadTemplate</b><br>Test class: com.restassured.testcases.Network_Get_Data<br>Test method: To verify the Get Network Data API   </td>
+<td></td>
+<td>1</td>
+<td>com.restassured.testcases.Network_Get_Data@2e6a8155</td></tr>
+<tr>
+<td title='com.restassured.testcases.Network_Download_CSV.Get_Network_DownloadCSV()'><b>Get_Network_DownloadCSV</b><br>Test class: com.restassured.testcases.Network_Download_CSV<br>Test method: To verify the network downoad csv API   </td>
+<td></td>
+<td>1</td>
+<td>com.restassured.testcases.Network_Download_CSV@51c668e3</td></tr>
+<tr>
+<td title='com.restassured.testcases.Product_Get_Data.Get_Product_DownloadTemplate()'><b>Get_Product_DownloadTemplate</b><br>Test class: com.restassured.testcases.Product_Get_Data<br>Test method: To verify the Get Product Data API   </td>
+<td></td>
+<td>3</td>
+<td>com.restassured.testcases.Product_Get_Data@18df8434</td></tr>
+<tr>
+<td title='com.restassured.testcases.Product_Download_CSV.Get_Product_DownloadCSV()'><b>Get_Product_DownloadCSV</b><br>Test class: com.restassured.testcases.Product_Download_CSV<br>Test method: To verify the product downoad csv API   </td>
+<td></td>
+<td>1</td>
+<td>com.restassured.testcases.Product_Download_CSV@5677323c</td></tr>
+<tr>
+<td title='com.restassured.testcases.Location_Get_DownloadTemplate.Get_Location_DownloadTemplate()'><b>Get_Location_DownloadTemplate</b><br>Test class: com.restassured.testcases.Location_Get_DownloadTemplate<br>Test method: To verify the Location Get DownloadTemplate API   </td>
+<td></td>
+<td>1</td>
+<td>com.restassured.testcases.Location_Get_DownloadTemplate@121314f7</td></tr>
+<tr>
+<td title='com.restassured.testcases.Transaction_Upload_CSV.Get_Transaction_Upload_CSV()'><b>Get_Transaction_Upload_CSV</b><br>Test class: com.restassured.testcases.Transaction_Upload_CSV<br>Test method: To verify the Transaction upload CSV API   </td>
+<td></td>
+<td>1</td>
+<td>com.restassured.testcases.Transaction_Upload_CSV@2794eab6</td></tr>
+<tr>
+<td title='com.restassured.testcases.Network_Upload_CSV.Get_Network_Upload_CSV()'><b>Get_Network_Upload_CSV</b><br>Test class: com.restassured.testcases.Network_Upload_CSV<br>Test method: To verify the network upload CSV API   </td>
+<td></td>
+<td>1</td>
+<td>com.restassured.testcases.Network_Upload_CSV@52719fb6</td></tr>
+<tr>
+<td title='com.restassured.testcases.Transaction_Get_Data.Get_Transaction_DownloadTemplate()'><b>Get_Transaction_DownloadTemplate</b><br>Test class: com.restassured.testcases.Transaction_Get_Data<br>Test method: To verify the Get Transaction Data API   </td>
+<td></td>
+<td>1</td>
+<td>com.restassured.testcases.Transaction_Get_Data@e350b40</td></tr>
+<tr>
+<td title='com.restassured.testcases.Network_Get_DownloadTemplate.Get_Network_DownloadTemplate()'><b>Get_Network_DownloadTemplate</b><br>Test class: com.restassured.testcases.Network_Get_DownloadTemplate<br>Test method: To verify the Network Get DownloadTemplate API   </td>
+<td></td>
+<td>1</td>
+<td>com.restassured.testcases.Network_Get_DownloadTemplate@6221a451</td></tr>
+<tr>
+<td title='com.restassured.testcases.Product_Get_DownloadTemplate.Get_Product_DownloadTemplate()'><b>Get_Product_DownloadTemplate</b><br>Test class: com.restassured.testcases.Product_Get_DownloadTemplate<br>Test method: To verify the Product Get DownloadTemplate API   </td>
+<td></td>
+<td>0</td>
+<td>com.restassured.testcases.Product_Get_DownloadTemplate@65c7a252</td></tr>
+<tr>
+<td title='com.restassured.testcases.Personnel_Download_CSV.Get_Personnel_DownloadCSV()'><b>Get_Personnel_DownloadCSV</b><br>Test class: com.restassured.testcases.Personnel_Download_CSV<br>Test method: To verify the personnel downoad csv API   </td>
+<td></td>
+<td>0</td>
+<td>com.restassured.testcases.Personnel_Download_CSV@4a883b15</td></tr>
+<tr>
+<td title='com.restassured.testcases.Currency_Download_CSV.Get_Currency_DownloadCSV()'><b>Get_Currency_DownloadCSV</b><br>Test class: com.restassured.testcases.Currency_Download_CSV<br>Test method: To verify the currency download csv API   </td>
+<td></td>
+<td>1</td>
+<td>com.restassured.testcases.Currency_Download_CSV@4686afc2</td></tr>
+<tr>
+<td title='com.restassured.testcases.Personnel_Upload_JSON.Get_Personnel_Upload_JSON()'><b>Get_Personnel_Upload_JSON</b><br>Test class: com.restassured.testcases.Personnel_Upload_JSON<br>Test method: To verify the personnel upload JSON API   </td>
+<td></td>
+<td>1</td>
+<td>com.restassured.testcases.Personnel_Upload_JSON@537f60bf</td></tr>
+<tr>
+<td title='com.restassured.testcases.Network_Upload_JSON.Get_Network_Upload_JSON()'><b>Get_Network_Upload_JSON</b><br>Test class: com.restassured.testcases.Network_Upload_JSON<br>Test method: To verify the network upload JSON API   </td>
+<td></td>
+<td>0</td>
+<td>com.restassured.testcases.Network_Upload_JSON@3012646b</td></tr>
+</table><p>
+</body>
+</html>

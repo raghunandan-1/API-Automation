@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+	<listener class-name="com.restassured.listeners.ListenerClass"></listener>
+	<listener class-name="com.restassured.listeners.AnnotationTransformer"></listener>
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.restassured.testcases.Login"/>
+     <class name="com.restassured.testcases.Location_Download_CSV"/>
+      <class name="com.restassured.testcases.Location_Get_Data"/>
+      <class name="com.restassured.testcases.Location_Get_DownloadTemplate"/>
+      <class name="com.restassured.testcases.Location_Upload_CSV"/>
+      <class name="com.restassured.testcases.Location_Upload_JSON"/>
+    <class name="com.restassured.testcases.Mapping_Download_CSV"/>
+      <class name="com.restassured.testcases.Mapping_Get_Data"/>
+      <class name="com.restassured.testcases.Mapping_Get_DownloadTemplate"/>
+      <class name="com.restassured.testcases.Mapping_Upload_CSV"/>
+      <class name="com.restassured.testcases.Mapping_Upload_JSON"/>
+      <class name="com.restassured.testcases.Network_Download_CSV"/>
+      <class name="com.restassured.testcases.Network_Get_Data"/>
+      <class name="com.restassured.testcases.Network_Get_DownloadTemplate"/>
+      <class name="com.restassured.testcases.Network_Upload_CSV"/>
+      <class name="com.restassured.testcases.Network_Upload_JSON"/>
+      <class name="com.restassured.testcases.Personnel_Download_CSV"/>
+      <class name="com.restassured.testcases.Personnel_Get_Data"/>
+      <class name="com.restassured.testcases.Personnel_Get_DownloadTemplate"/>
+      <class name="com.restassured.testcases.Personnel_Upload_CSV"/>
+      <class name="com.restassured.testcases.Personnel_Upload_JSON"/>
+      <class name="com.restassured.testcases.Product_Download_CSV"/>
+      <class name="com.restassured.testcases.Product_Get_Data"/>
+      <class name="com.restassured.testcases.Product_Get_DownloadTemplate"/>
+      <class name="com.restassured.testcases.Product_Upload_CSV"/>
+      <class name="com.restassured.testcases.Product_Upload_JSON"/>
+      <class name="com.restassured.testcases.Currency_Download_CSV"/>
+      <class name="com.restassured.testcases.Currency_Get_Data"/>
+      <class name="com.restassured.testcases.Currency_Get_DownloadTemplate"/>
+      <class name="com.restassured.testcases.Currency_Upload_CSV"/>
+      <class name="com.restassured.testcases.Currency_Upload_JSON"/>
+      <class name="com.restassured.testcases.Transaction_Download_CSV"/>
+      <class name="com.restassured.testcases.Transaction_Get_Data"/>
+      <class name="com.restassured.testcases.Transaction_Get_DownloadTemplate"/>
+      <class name="com.restassured.testcases.Transaction_Upload_CSV"/>
+      <class name="com.restassured.testcases.Transaction_Upload_JSON"/>
+      
+      
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

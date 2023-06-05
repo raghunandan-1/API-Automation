@@ -1,0 +1,1927 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\raghunandan.g\eclipse-workspace\EDM_API_Framework\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">37 methods,   37 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.restassured.testcases.Currency_Download_CSV" class="method navigator-link" hash-for-method="Get_Currency_DownloadCSV">Get_Currency_DownloadCSV</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.restassured.testcases.Currency_Get_Data" class="method navigator-link" hash-for-method="Get_Currency_DownloadTemplate">Get_Currency_DownloadTemplate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.restassured.testcases.Currency_Get_DownloadTemplate" class="method navigator-link" hash-for-method="Get_Currency_DownloadTemplate">Get_Currency_DownloadTemplate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.restassured.testcases.Currency_Upload_CSV" class="method navigator-link" hash-for-method="Get_Currency_Upload_CSV">Get_Currency_Upload_CSV</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.restassured.testcases.Currency_Upload_JSON" class="method navigator-link" hash-for-method="Get_Currency_Upload_JSON">Get_Currency_Upload_JSON</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.restassured.testcases.Location_Download_CSV" class="method navigator-link" hash-for-method="Get_Location_DownloadCSV">Get_Location_DownloadCSV</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.restassured.testcases.Location_Get_Data" class="method navigator-link" hash-for-method="Get_Location_DownloadTemplate">Get_Location_DownloadTemplate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.restassured.testcases.Location_Get_DownloadTemplate" class="method navigator-link" hash-for-method="Get_Location_DownloadTemplate">Get_Location_DownloadTemplate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.restassured.testcases.Location_Upload_CSV" class="method navigator-link" hash-for-method="Get_Location_Upload_CSV">Get_Location_Upload_CSV</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.restassured.testcases.Location_Upload_JSON" class="method navigator-link" hash-for-method="Get_Location_Upload_JSON">Get_Location_Upload_JSON</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.restassured.testcases.Mapping_Download_CSV" class="method navigator-link" hash-for-method="Get_Mapping_DownloadCSV">Get_Mapping_DownloadCSV</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.restassured.testcases.Mapping_Get_DownloadTemplate" class="method navigator-link" hash-for-method="Get_Mapping_DownloadTemplate">Get_Mapping_DownloadTemplate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.restassured.testcases.Mapping_Get_Data" class="method navigator-link" hash-for-method="Get_Mapping_DownloadTemplate">Get_Mapping_DownloadTemplate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.restassured.testcases.Mapping_Upload_CSV" class="method navigator-link" hash-for-method="Get_Mapping_Upload_CSV">Get_Mapping_Upload_CSV</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.restassured.testcases.Mapping_Upload_JSON" class="method navigator-link" hash-for-method="Get_Mapping_Upload_JSON">Get_Mapping_Upload_JSON</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.restassured.testcases.Network_Download_CSV" class="method navigator-link" hash-for-method="Get_Network_DownloadCSV">Get_Network_DownloadCSV</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.restassured.testcases.Network_Get_Data" class="method navigator-link" hash-for-method="Get_Network_DownloadTemplate">Get_Network_DownloadTemplate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.restassured.testcases.Network_Get_DownloadTemplate" class="method navigator-link" hash-for-method="Get_Network_DownloadTemplate">Get_Network_DownloadTemplate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.restassured.testcases.Network_Upload_CSV" class="method navigator-link" hash-for-method="Get_Network_Upload_CSV">Get_Network_Upload_CSV</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.restassured.testcases.Network_Upload_JSON" class="method navigator-link" hash-for-method="Get_Network_Upload_JSON">Get_Network_Upload_JSON</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.restassured.testcases.Personnel_Download_CSV" class="method navigator-link" hash-for-method="Get_Personnel_DownloadCSV">Get_Personnel_DownloadCSV</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.restassured.testcases.Personnel_Get_DownloadTemplate" class="method navigator-link" hash-for-method="Get_Personnel_DownloadTemplate">Get_Personnel_DownloadTemplate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.restassured.testcases.Personnel_Get_Data" class="method navigator-link" hash-for-method="Get_Personnel_DownloadTemplate">Get_Personnel_DownloadTemplate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.restassured.testcases.Personnel_Upload_CSV" class="method navigator-link" hash-for-method="Get_Personnel_Upload_CSV">Get_Personnel_Upload_CSV</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.restassured.testcases.Personnel_Upload_JSON" class="method navigator-link" hash-for-method="Get_Personnel_Upload_JSON">Get_Personnel_Upload_JSON</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.restassured.testcases.Product_Download_CSV" class="method navigator-link" hash-for-method="Get_Product_DownloadCSV">Get_Product_DownloadCSV</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.restassured.testcases.Product_Get_Data" class="method navigator-link" hash-for-method="Get_Product_DownloadTemplate">Get_Product_DownloadTemplate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.restassured.testcases.Product_Get_DownloadTemplate" class="method navigator-link" hash-for-method="Get_Product_DownloadTemplate">Get_Product_DownloadTemplate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.restassured.testcases.Product_Upload_CSV" class="method navigator-link" hash-for-method="Get_Product_Upload_CSV">Get_Product_Upload_CSV</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.restassured.testcases.Product_Upload_JSON" class="method navigator-link" hash-for-method="Get_Product_Upload_JSON">Get_Product_Upload_JSON</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.restassured.testcases.Transaction_Download_CSV" class="method navigator-link" hash-for-method="Get_Transaction_DownloadCSV">Get_Transaction_DownloadCSV</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.restassured.testcases.Transaction_Get_DownloadTemplate" class="method navigator-link" hash-for-method="Get_Transaction_DownloadTemplate">Get_Transaction_DownloadTemplate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.restassured.testcases.Transaction_Get_Data" class="method navigator-link" hash-for-method="Get_Transaction_DownloadTemplate">Get_Transaction_DownloadTemplate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.restassured.testcases.Transaction_Upload_CSV" class="method navigator-link" hash-for-method="Get_Transaction_Upload_CSV">Get_Transaction_Upload_CSV</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.restassured.testcases.Transaction_Upload_JSON" class="method navigator-link" hash-for-method="Get_Transaction_Upload_JSON">Get_Transaction_Upload_JSON</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.restassured.testcases.Login" class="method navigator-link" hash-for-method="Login_user">Login_user</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.restassured.testcases.Login" class="method navigator-link" hash-for-method="Verify_token">Verify_token</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.restassured.testcases.Transaction_Upload_JSON</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Get_Transaction_Upload_JSON">
+                  </a> <!-- Get_Transaction_Upload_JSON -->
+                  <span class="method-name">Get_Transaction_Upload_JSON</span>
+                  <em>
+(To verify the transaction upload JSON API   )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.restassured.testcases.Network_Upload_CSV</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Get_Network_Upload_CSV">
+                  </a> <!-- Get_Network_Upload_CSV -->
+                  <span class="method-name">Get_Network_Upload_CSV</span>
+                  <em>
+(To verify the network upload CSV API   )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.restassured.testcases.Mapping_Download_CSV</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Get_Mapping_DownloadCSV">
+                  </a> <!-- Get_Mapping_DownloadCSV -->
+                  <span class="method-name">Get_Mapping_DownloadCSV</span>
+                  <em>
+(To verify the Mapping downoad csv API   )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.restassured.testcases.Network_Get_Data</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Get_Network_DownloadTemplate">
+                  </a> <!-- Get_Network_DownloadTemplate -->
+                  <span class="method-name">Get_Network_DownloadTemplate</span>
+                  <em>
+(To verify the Get Network Data API   )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.restassured.testcases.Currency_Get_DownloadTemplate</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Get_Currency_DownloadTemplate">
+                  </a> <!-- Get_Currency_DownloadTemplate -->
+                  <span class="method-name">Get_Currency_DownloadTemplate</span>
+                  <em>
+(To verify the Currency Get DownloadTemplate API   )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.restassured.testcases.Location_Get_Data</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Get_Location_DownloadTemplate">
+                  </a> <!-- Get_Location_DownloadTemplate -->
+                  <span class="method-name">Get_Location_DownloadTemplate</span>
+                  <em>
+(To verify the Get Location Data API   )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.restassured.testcases.Network_Download_CSV</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Get_Network_DownloadCSV">
+                  </a> <!-- Get_Network_DownloadCSV -->
+                  <span class="method-name">Get_Network_DownloadCSV</span>
+                  <em>
+(To verify the network downoad csv API   )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.restassured.testcases.Transaction_Download_CSV</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Get_Transaction_DownloadCSV">
+                  </a> <!-- Get_Transaction_DownloadCSV -->
+                  <span class="method-name">Get_Transaction_DownloadCSV</span>
+                  <em>
+(To verify the transaction download csv API   )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.restassured.testcases.Mapping_Upload_JSON</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Get_Mapping_Upload_JSON">
+                  </a> <!-- Get_Mapping_Upload_JSON -->
+                  <span class="method-name">Get_Mapping_Upload_JSON</span>
+                  <em>
+(To verify the mapping upload JSON API   )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.restassured.testcases.Currency_Get_Data</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Get_Currency_DownloadTemplate">
+                  </a> <!-- Get_Currency_DownloadTemplate -->
+                  <span class="method-name">Get_Currency_DownloadTemplate</span>
+                  <em>
+(To verify the Get Currency Data API   )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.restassured.testcases.Currency_Upload_CSV</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Get_Currency_Upload_CSV">
+                  </a> <!-- Get_Currency_Upload_CSV -->
+                  <span class="method-name">Get_Currency_Upload_CSV</span>
+                  <em>
+(To verify the Cuurency upload CSV API   )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.restassured.testcases.Network_Upload_JSON</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Get_Network_Upload_JSON">
+                  </a> <!-- Get_Network_Upload_JSON -->
+                  <span class="method-name">Get_Network_Upload_JSON</span>
+                  <em>
+(To verify the network upload JSON API   )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.restassured.testcases.Personnel_Get_DownloadTemplate</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Get_Personnel_DownloadTemplate">
+                  </a> <!-- Get_Personnel_DownloadTemplate -->
+                  <span class="method-name">Get_Personnel_DownloadTemplate</span>
+                  <em>
+(To verify the Personnel Get DownloadTemplate API   )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.restassured.testcases.Currency_Download_CSV</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Get_Currency_DownloadCSV">
+                  </a> <!-- Get_Currency_DownloadCSV -->
+                  <span class="method-name">Get_Currency_DownloadCSV</span>
+                  <em>
+(To verify the currency download csv API   )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.restassured.testcases.Product_Upload_JSON</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Get_Product_Upload_JSON">
+                  </a> <!-- Get_Product_Upload_JSON -->
+                  <span class="method-name">Get_Product_Upload_JSON</span>
+                  <em>
+(To verify the product upload JSON API   )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.restassured.testcases.Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login_user">
+                  </a> <!-- Login_user -->
+                  <span class="method-name">Login_user</span>
+                  <em>
+(To verify the Login API for Valid Creds   )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_token">
+                  </a> <!-- Verify_token -->
+                  <span class="method-name">Verify_token</span>
+                  <em>
+(To verify the Token API   )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.restassured.testcases.Location_Get_DownloadTemplate</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Get_Location_DownloadTemplate">
+                  </a> <!-- Get_Location_DownloadTemplate -->
+                  <span class="method-name">Get_Location_DownloadTemplate</span>
+                  <em>
+(To verify the Location Get DownloadTemplate API   )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.restassured.testcases.Personnel_Download_CSV</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Get_Personnel_DownloadCSV">
+                  </a> <!-- Get_Personnel_DownloadCSV -->
+                  <span class="method-name">Get_Personnel_DownloadCSV</span>
+                  <em>
+(To verify the personnel downoad csv API   )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.restassured.testcases.Location_Download_CSV</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Get_Location_DownloadCSV">
+                  </a> <!-- Get_Location_DownloadCSV -->
+                  <span class="method-name">Get_Location_DownloadCSV</span>
+                  <em>
+(To verify the location download csv API   )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.restassured.testcases.Personnel_Get_Data</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Get_Personnel_DownloadTemplate">
+                  </a> <!-- Get_Personnel_DownloadTemplate -->
+                  <span class="method-name">Get_Personnel_DownloadTemplate</span>
+                  <em>
+(To verify the Get Personnel Data API   )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.restassured.testcases.Location_Upload_CSV</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Get_Location_Upload_CSV">
+                  </a> <!-- Get_Location_Upload_CSV -->
+                  <span class="method-name">Get_Location_Upload_CSV</span>
+                  <em>
+(To verify the Location upload CSV API   )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.restassured.testcases.Transaction_Get_DownloadTemplate</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Get_Transaction_DownloadTemplate">
+                  </a> <!-- Get_Transaction_DownloadTemplate -->
+                  <span class="method-name">Get_Transaction_DownloadTemplate</span>
+                  <em>
+(To verify the Transaction Get DownloadTemplate API   )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.restassured.testcases.Product_Get_Data</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Get_Product_DownloadTemplate">
+                  </a> <!-- Get_Product_DownloadTemplate -->
+                  <span class="method-name">Get_Product_DownloadTemplate</span>
+                  <em>
+(To verify the Get Product Data API   )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.restassured.testcases.Personnel_Upload_CSV</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Get_Personnel_Upload_CSV">
+                  </a> <!-- Get_Personnel_Upload_CSV -->
+                  <span class="method-name">Get_Personnel_Upload_CSV</span>
+                  <em>
+(To verify the personnel upload CSV API   )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.restassured.testcases.Transaction_Upload_CSV</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Get_Transaction_Upload_CSV">
+                  </a> <!-- Get_Transaction_Upload_CSV -->
+                  <span class="method-name">Get_Transaction_Upload_CSV</span>
+                  <em>
+(To verify the Transaction upload CSV API   )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.restassured.testcases.Mapping_Upload_CSV</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Get_Mapping_Upload_CSV">
+                  </a> <!-- Get_Mapping_Upload_CSV -->
+                  <span class="method-name">Get_Mapping_Upload_CSV</span>
+                  <em>
+(To verify the mapping upload CSV API   )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.restassured.testcases.Mapping_Get_DownloadTemplate</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Get_Mapping_DownloadTemplate">
+                  </a> <!-- Get_Mapping_DownloadTemplate -->
+                  <span class="method-name">Get_Mapping_DownloadTemplate</span>
+                  <em>
+(To verify the Mapping Get DownloadTemplate API   )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.restassured.testcases.Personnel_Upload_JSON</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Get_Personnel_Upload_JSON">
+                  </a> <!-- Get_Personnel_Upload_JSON -->
+                  <span class="method-name">Get_Personnel_Upload_JSON</span>
+                  <em>
+(To verify the personnel upload JSON API   )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.restassured.testcases.Mapping_Get_Data</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Get_Mapping_DownloadTemplate">
+                  </a> <!-- Get_Mapping_DownloadTemplate -->
+                  <span class="method-name">Get_Mapping_DownloadTemplate</span>
+                  <em>
+(To verify the Get Mapping Data API   )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.restassured.testcases.Network_Get_DownloadTemplate</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Get_Network_DownloadTemplate">
+                  </a> <!-- Get_Network_DownloadTemplate -->
+                  <span class="method-name">Get_Network_DownloadTemplate</span>
+                  <em>
+(To verify the Network Get DownloadTemplate API   )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.restassured.testcases.Location_Upload_JSON</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Get_Location_Upload_JSON">
+                  </a> <!-- Get_Location_Upload_JSON -->
+                  <span class="method-name">Get_Location_Upload_JSON</span>
+                  <em>
+(To verify the location upload JSON API   )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.restassured.testcases.Product_Upload_CSV</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Get_Product_Upload_CSV">
+                  </a> <!-- Get_Product_Upload_CSV -->
+                  <span class="method-name">Get_Product_Upload_CSV</span>
+                  <em>
+(To verify the product upload CSV API   )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.restassured.testcases.Currency_Upload_JSON</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Get_Currency_Upload_JSON">
+                  </a> <!-- Get_Currency_Upload_JSON -->
+                  <span class="method-name">Get_Currency_Upload_JSON</span>
+                  <em>
+(To verify the currency upload JSON API   )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.restassured.testcases.Transaction_Get_Data</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Get_Transaction_DownloadTemplate">
+                  </a> <!-- Get_Transaction_DownloadTemplate -->
+                  <span class="method-name">Get_Transaction_DownloadTemplate</span>
+                  <em>
+(To verify the Get Transaction Data API   )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.restassured.testcases.Product_Get_DownloadTemplate</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Get_Product_DownloadTemplate">
+                  </a> <!-- Get_Product_DownloadTemplate -->
+                  <span class="method-name">Get_Product_DownloadTemplate</span>
+                  <em>
+(To verify the Product Get DownloadTemplate API   )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.restassured.testcases.Product_Download_CSV</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Get_Product_DownloadCSV">
+                  </a> <!-- Get_Product_DownloadCSV -->
+                  <span class="method-name">Get_Product_DownloadCSV</span>
+                  <em>
+(To verify the product downoad csv API   )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\raghunandan.g\eclipse-workspace\EDM_API_Framework\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.restassured.listeners.ListenerClass&quot;/&gt;
+    &lt;listener class-name=&quot;com.restassured.listeners.AnnotationTransformer&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.restassured.testcases.Login&quot;/&gt;
+      &lt;class name=&quot;com.restassured.testcases.Location_Download_CSV&quot;/&gt;
+      &lt;class name=&quot;com.restassured.testcases.Location_Get_Data&quot;/&gt;
+      &lt;class name=&quot;com.restassured.testcases.Location_Get_DownloadTemplate&quot;/&gt;
+      &lt;class name=&quot;com.restassured.testcases.Location_Upload_CSV&quot;/&gt;
+      &lt;class name=&quot;com.restassured.testcases.Location_Upload_JSON&quot;/&gt;
+      &lt;class name=&quot;com.restassured.testcases.Mapping_Download_CSV&quot;/&gt;
+      &lt;class name=&quot;com.restassured.testcases.Mapping_Get_Data&quot;/&gt;
+      &lt;class name=&quot;com.restassured.testcases.Mapping_Get_DownloadTemplate&quot;/&gt;
+      &lt;class name=&quot;com.restassured.testcases.Mapping_Upload_CSV&quot;/&gt;
+      &lt;class name=&quot;com.restassured.testcases.Mapping_Upload_JSON&quot;/&gt;
+      &lt;class name=&quot;com.restassured.testcases.Network_Download_CSV&quot;/&gt;
+      &lt;class name=&quot;com.restassured.testcases.Network_Get_Data&quot;/&gt;
+      &lt;class name=&quot;com.restassured.testcases.Network_Get_DownloadTemplate&quot;/&gt;
+      &lt;class name=&quot;com.restassured.testcases.Network_Upload_CSV&quot;/&gt;
+      &lt;class name=&quot;com.restassured.testcases.Network_Upload_JSON&quot;/&gt;
+      &lt;class name=&quot;com.restassured.testcases.Personnel_Download_CSV&quot;/&gt;
+      &lt;class name=&quot;com.restassured.testcases.Personnel_Get_Data&quot;/&gt;
+      &lt;class name=&quot;com.restassured.testcases.Personnel_Get_DownloadTemplate&quot;/&gt;
+      &lt;class name=&quot;com.restassured.testcases.Personnel_Upload_CSV&quot;/&gt;
+      &lt;class name=&quot;com.restassured.testcases.Personnel_Upload_JSON&quot;/&gt;
+      &lt;class name=&quot;com.restassured.testcases.Product_Download_CSV&quot;/&gt;
+      &lt;class name=&quot;com.restassured.testcases.Product_Get_Data&quot;/&gt;
+      &lt;class name=&quot;com.restassured.testcases.Product_Get_DownloadTemplate&quot;/&gt;
+      &lt;class name=&quot;com.restassured.testcases.Product_Upload_CSV&quot;/&gt;
+      &lt;class name=&quot;com.restassured.testcases.Product_Upload_JSON&quot;/&gt;
+      &lt;class name=&quot;com.restassured.testcases.Currency_Download_CSV&quot;/&gt;
+      &lt;class name=&quot;com.restassured.testcases.Currency_Get_Data&quot;/&gt;
+      &lt;class name=&quot;com.restassured.testcases.Currency_Get_DownloadTemplate&quot;/&gt;
+      &lt;class name=&quot;com.restassured.testcases.Currency_Upload_CSV&quot;/&gt;
+      &lt;class name=&quot;com.restassured.testcases.Currency_Upload_JSON&quot;/&gt;
+      &lt;class name=&quot;com.restassured.testcases.Transaction_Download_CSV&quot;/&gt;
+      &lt;class name=&quot;com.restassured.testcases.Transaction_Get_Data&quot;/&gt;
+      &lt;class name=&quot;com.restassured.testcases.Transaction_Get_DownloadTemplate&quot;/&gt;
+      &lt;class name=&quot;com.restassured.testcases.Transaction_Upload_CSV&quot;/&gt;
+      &lt;class name=&quot;com.restassured.testcases.Transaction_Upload_JSON&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (36 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(37);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Get_Product_Upload_JSON')
+data.setCell(0, 2, 'com.restassured.testcases.Product_Upload_JSON')
+data.setCell(0, 3, 4998);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Login_user')
+data.setCell(1, 2, 'com.restassured.testcases.Login')
+data.setCell(1, 3, 4847);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Get_Product_Upload_CSV')
+data.setCell(2, 2, 'com.restassured.testcases.Product_Upload_CSV')
+data.setCell(2, 3, 4082);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Get_Product_DownloadTemplate')
+data.setCell(3, 2, 'com.restassured.testcases.Product_Get_Data')
+data.setCell(3, 3, 3717);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Get_Currency_Upload_JSON')
+data.setCell(4, 2, 'com.restassured.testcases.Currency_Upload_JSON')
+data.setCell(4, 3, 1637);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Get_Currency_Upload_CSV')
+data.setCell(5, 2, 'com.restassured.testcases.Currency_Upload_CSV')
+data.setCell(5, 3, 1625);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Get_Currency_DownloadTemplate')
+data.setCell(6, 2, 'com.restassured.testcases.Currency_Get_Data')
+data.setCell(6, 3, 1614);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Get_Product_DownloadCSV')
+data.setCell(7, 2, 'com.restassured.testcases.Product_Download_CSV')
+data.setCell(7, 3, 1303);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Verify_token')
+data.setCell(8, 2, 'com.restassured.testcases.Login')
+data.setCell(8, 3, 1125);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Get_Location_Upload_CSV')
+data.setCell(9, 2, 'com.restassured.testcases.Location_Upload_CSV')
+data.setCell(9, 3, 1079);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Get_Location_DownloadCSV')
+data.setCell(10, 2, 'com.restassured.testcases.Location_Download_CSV')
+data.setCell(10, 3, 1077);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Get_Network_Upload_CSV')
+data.setCell(11, 2, 'com.restassured.testcases.Network_Upload_CSV')
+data.setCell(11, 3, 1061);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Get_Transaction_Upload_CSV')
+data.setCell(12, 2, 'com.restassured.testcases.Transaction_Upload_CSV')
+data.setCell(12, 3, 1049);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Get_Location_DownloadTemplate')
+data.setCell(13, 2, 'com.restassured.testcases.Location_Get_Data')
+data.setCell(13, 3, 1036);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'Get_Personnel_Upload_CSV')
+data.setCell(14, 2, 'com.restassured.testcases.Personnel_Upload_CSV')
+data.setCell(14, 3, 1036);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'Get_Network_DownloadTemplate')
+data.setCell(15, 2, 'com.restassured.testcases.Network_Get_Data')
+data.setCell(15, 3, 1035);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'Get_Location_Upload_JSON')
+data.setCell(16, 2, 'com.restassured.testcases.Location_Upload_JSON')
+data.setCell(16, 3, 1032);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'Get_Location_DownloadTemplate')
+data.setCell(17, 2, 'com.restassured.testcases.Location_Get_DownloadTemplate')
+data.setCell(17, 3, 1030);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'Get_Mapping_DownloadTemplate')
+data.setCell(18, 2, 'com.restassured.testcases.Mapping_Get_DownloadTemplate')
+data.setCell(18, 3, 1028);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'Get_Currency_DownloadCSV')
+data.setCell(19, 2, 'com.restassured.testcases.Currency_Download_CSV')
+data.setCell(19, 3, 1028);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'Get_Network_DownloadCSV')
+data.setCell(20, 2, 'com.restassured.testcases.Network_Download_CSV')
+data.setCell(20, 3, 1027);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'Get_Network_DownloadTemplate')
+data.setCell(21, 2, 'com.restassured.testcases.Network_Get_DownloadTemplate')
+data.setCell(21, 3, 1025);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'Get_Transaction_DownloadCSV')
+data.setCell(22, 2, 'com.restassured.testcases.Transaction_Download_CSV')
+data.setCell(22, 3, 1022);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'Get_Mapping_DownloadTemplate')
+data.setCell(23, 2, 'com.restassured.testcases.Mapping_Get_Data')
+data.setCell(23, 3, 1020);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'Get_Personnel_Upload_JSON')
+data.setCell(24, 2, 'com.restassured.testcases.Personnel_Upload_JSON')
+data.setCell(24, 3, 1020);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'Get_Transaction_DownloadTemplate')
+data.setCell(25, 2, 'com.restassured.testcases.Transaction_Get_Data')
+data.setCell(25, 3, 1018);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'Get_Personnel_DownloadTemplate')
+data.setCell(26, 2, 'com.restassured.testcases.Personnel_Get_Data')
+data.setCell(26, 3, 1016);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'Get_Personnel_DownloadTemplate')
+data.setCell(27, 2, 'com.restassured.testcases.Personnel_Get_DownloadTemplate')
+data.setCell(27, 3, 1015);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'Get_Transaction_Upload_JSON')
+data.setCell(28, 2, 'com.restassured.testcases.Transaction_Upload_JSON')
+data.setCell(28, 3, 1009);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'Get_Currency_DownloadTemplate')
+data.setCell(29, 2, 'com.restassured.testcases.Currency_Get_DownloadTemplate')
+data.setCell(29, 3, 1007);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'Get_Mapping_DownloadCSV')
+data.setCell(30, 2, 'com.restassured.testcases.Mapping_Download_CSV')
+data.setCell(30, 3, 1004);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'Get_Mapping_Upload_JSON')
+data.setCell(31, 2, 'com.restassured.testcases.Mapping_Upload_JSON')
+data.setCell(31, 3, 1001);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'Get_Mapping_Upload_CSV')
+data.setCell(32, 2, 'com.restassured.testcases.Mapping_Upload_CSV')
+data.setCell(32, 3, 1001);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'Get_Personnel_DownloadCSV')
+data.setCell(33, 2, 'com.restassured.testcases.Personnel_Download_CSV')
+data.setCell(33, 3, 999);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'Get_Transaction_DownloadTemplate')
+data.setCell(34, 2, 'com.restassured.testcases.Transaction_Get_DownloadTemplate')
+data.setCell(34, 3, 998);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'Get_Network_Upload_JSON')
+data.setCell(35, 2, 'com.restassured.testcases.Network_Upload_JSON')
+data.setCell(35, 3, 998);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'Get_Product_DownloadTemplate')
+data.setCell(36, 2, 'com.restassured.testcases.Product_Get_DownloadTemplate')
+data.setCell(36, 3, 989);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 53 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">70 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.restassured.testcases.Transaction_Upload_JSON</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.restassured.testcases.Network_Upload_CSV</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.restassured.testcases.Mapping_Download_CSV</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.restassured.testcases.Network_Get_Data</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.restassured.testcases.Currency_Get_DownloadTemplate</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.restassured.testcases.Location_Get_Data</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.restassured.testcases.Mapping_Upload_JSON</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.restassured.testcases.Transaction_Download_CSV</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.restassured.testcases.Network_Download_CSV</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.restassured.testcases.Currency_Get_Data</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.restassured.testcases.Currency_Upload_CSV</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.restassured.testcases.Network_Upload_JSON</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.restassured.testcases.Personnel_Get_DownloadTemplate</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.restassured.testcases.Currency_Download_CSV</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.restassured.testcases.Product_Upload_JSON</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.restassured.testcases.Location_Get_DownloadTemplate</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.restassured.testcases.Personnel_Download_CSV</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.restassured.testcases.Location_Download_CSV</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.restassured.testcases.Personnel_Get_Data</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.restassured.testcases.Transaction_Get_DownloadTemplate</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.restassured.testcases.Location_Upload_CSV</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.restassured.testcases.Product_Get_Data</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.restassured.testcases.Personnel_Upload_CSV</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.restassured.testcases.Transaction_Upload_CSV</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.restassured.testcases.Mapping_Upload_CSV</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.restassured.testcases.Mapping_Get_DownloadTemplate</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.restassured.testcases.Mapping_Get_Data</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.restassured.testcases.Personnel_Upload_JSON</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.restassured.testcases.Product_Upload_CSV</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.restassured.testcases.Location_Upload_JSON</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.restassured.testcases.Network_Get_DownloadTemplate</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.restassured.testcases.Currency_Upload_JSON</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.restassured.testcases.Transaction_Get_Data</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.restassured.testcases.Product_Get_DownloadTemplate</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.restassured.testcases.Product_Download_CSV</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.restassured.testcases.Login</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUpSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">451 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Login_user</span>
+                <span class="method-start">453 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_token</span>
+                <span class="method-start">5307 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">5307 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.restassured.testcases.Location_Download_CSV</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Get_Location_DownloadCSV</span>
+                <span class="method-start">6434 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">6434 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.restassured.testcases.Location_Get_Data</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">7512 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Get_Location_DownloadTemplate</span>
+                <span class="method-start">7512 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.restassured.testcases.Location_Get_DownloadTemplate</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">8549 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Get_Location_DownloadTemplate</span>
+                <span class="method-start">8549 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.restassured.testcases.Location_Upload_CSV</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Get_Location_Upload_CSV</span>
+                <span class="method-start">9581 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">9581 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.restassured.testcases.Location_Upload_JSON</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">10661 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Get_Location_Upload_JSON</span>
+                <span class="method-start">10661 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.restassured.testcases.Mapping_Download_CSV</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">11694 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Get_Mapping_DownloadCSV</span>
+                <span class="method-start">11694 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.restassured.testcases.Mapping_Get_Data</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Get_Mapping_DownloadTemplate</span>
+                <span class="method-start">12699 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">12699 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.restassured.testcases.Mapping_Get_DownloadTemplate</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">13720 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Get_Mapping_DownloadTemplate</span>
+                <span class="method-start">13720 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.restassured.testcases.Mapping_Upload_CSV</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Get_Mapping_Upload_CSV</span>
+                <span class="method-start">14750 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">14750 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.restassured.testcases.Mapping_Upload_JSON</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Get_Mapping_Upload_JSON</span>
+                <span class="method-start">15752 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">15752 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.restassured.testcases.Network_Download_CSV</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">16754 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Get_Network_DownloadCSV</span>
+                <span class="method-start">16754 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.restassured.testcases.Network_Get_Data</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">17782 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Get_Network_DownloadTemplate</span>
+                <span class="method-start">17783 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.restassured.testcases.Network_Get_DownloadTemplate</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">18819 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Get_Network_DownloadTemplate</span>
+                <span class="method-start">18819 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.restassured.testcases.Network_Upload_CSV</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">19845 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Get_Network_Upload_CSV</span>
+                <span class="method-start">19846 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.restassured.testcases.Network_Upload_JSON</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">20908 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Get_Network_Upload_JSON</span>
+                <span class="method-start">20908 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.restassured.testcases.Personnel_Download_CSV</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Get_Personnel_DownloadCSV</span>
+                <span class="method-start">21908 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">21908 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.restassured.testcases.Personnel_Get_Data</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Get_Personnel_DownloadTemplate</span>
+                <span class="method-start">22909 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">22909 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.restassured.testcases.Personnel_Get_DownloadTemplate</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">23926 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Get_Personnel_DownloadTemplate</span>
+                <span class="method-start">23927 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.restassured.testcases.Personnel_Upload_CSV</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Get_Personnel_Upload_CSV</span>
+                <span class="method-start">24943 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">24943 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.restassured.testcases.Personnel_Upload_JSON</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Get_Personnel_Upload_JSON</span>
+                <span class="method-start">25981 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">25981 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.restassured.testcases.Product_Download_CSV</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">27002 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Get_Product_DownloadCSV</span>
+                <span class="method-start">27003 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.restassured.testcases.Product_Get_Data</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">28307 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Get_Product_DownloadTemplate</span>
+                <span class="method-start">28308 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.restassured.testcases.Product_Get_DownloadTemplate</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">32027 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Get_Product_DownloadTemplate</span>
+                <span class="method-start">32028 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.restassured.testcases.Product_Upload_CSV</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Get_Product_Upload_CSV</span>
+                <span class="method-start">33019 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">33019 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.restassured.testcases.Product_Upload_JSON</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">37102 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Get_Product_Upload_JSON</span>
+                <span class="method-start">37102 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.restassured.testcases.Currency_Download_CSV</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">42101 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Get_Currency_DownloadCSV</span>
+                <span class="method-start">42101 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.restassured.testcases.Currency_Get_Data</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">43130 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Get_Currency_DownloadTemplate</span>
+                <span class="method-start">43130 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.restassured.testcases.Currency_Get_DownloadTemplate</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">44745 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Get_Currency_DownloadTemplate</span>
+                <span class="method-start">44746 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.restassured.testcases.Currency_Upload_CSV</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">45754 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Get_Currency_Upload_CSV</span>
+                <span class="method-start">45755 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.restassured.testcases.Currency_Upload_JSON</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">47381 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Get_Currency_Upload_JSON</span>
+                <span class="method-start">47381 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.restassured.testcases.Transaction_Download_CSV</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">49019 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Get_Transaction_DownloadCSV</span>
+                <span class="method-start">49019 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.restassured.testcases.Transaction_Get_Data</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">50041 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Get_Transaction_DownloadTemplate</span>
+                <span class="method-start">50042 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.restassured.testcases.Transaction_Get_DownloadTemplate</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">51061 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Get_Transaction_DownloadTemplate</span>
+                <span class="method-start">51061 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.restassured.testcases.Transaction_Upload_CSV</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Get_Transaction_Upload_CSV</span>
+                <span class="method-start">52061 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">52061 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.restassured.testcases.Transaction_Upload_JSON</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Get_Transaction_Upload_JSON</span>
+                <span class="method-start">53112 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">53112 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.restassured.testcases.Login</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">54161 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
